@@ -4251,8 +4251,9 @@ if (true) then
   _this setDir 106.83801;
   _this setPos [2240.9158, 14412.118, 2.697561];
 };
-
-};
+_vehicle_13 = objNull;
+if (true) then
+{
   _this = createVehicle ["MAP_pond_big_28_01", [2246.9934, 14363.441, 0.00030517578], [], 0, "CAN_COLLIDE"];
   _vehicle_13 = _this;
   _this setDir 2.7623615;
